@@ -142,17 +142,17 @@ jobs:
         # Arguments for the git add command
         add: docs
         # The name of the user that will be displayed as the author of the commit
-        # author_name: # optional
+        author_name: GitHub Actions Bot # optional
         # The email of the user that will be displayed as the author of the commit
-        # author_email: # optional
+        author_email: example@example.com # optional
         # The directory where your repository is located. You should use actions/checkout first to set it up
         # cwd: # optional, default is .
         # Whether to use the force option on git add, in order to bypass eventual gitignores
-        # force: # optional, default is false
+        force: true # optional, default is false
         # Whether to use the signoff option on git commit
         # signoff: # optional, default is false
         # The message for the commit
-        # message: # optional, default is Commit from GitHub Actions
+        message: Commit from GitHub Actions':' simulate.yml
         # Name of the branch to use, if different from the one that triggered the workflow
         # ref: # optional
         # Arguments for the git rm command
